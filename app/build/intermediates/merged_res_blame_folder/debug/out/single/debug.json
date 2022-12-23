@@ -16,28 +16,24 @@
         "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_green.jpg.flat",
         "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\green.jpg"
     },
     {
-        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_detail.xml.flat",
-        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_detail.xml"
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_home.xml"
     },
     {
-        "merged": "com.example.pengaduanonline.app-merged_res-33:/layout_activity_edit.xml.flat",
-        "source": "com.example.pengaduanonline.app-main-35:/layout/activity_edit.xml"
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_detail.xml"
     },
     {
         "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_main_bg.jpg.flat",
@@ -80,12 +76,20 @@
         "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\ic_notif_new.xml"
     },
     {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\ic_logout.xml"
+    },
+    {
         "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_ic_delete.xml.flat",
         "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "com.example.pengaduanonline.app-merged_res-33:/layout_activity_home.xml.flat",
+        "source": "com.example.pengaduanonline.app-main-35:/layout/activity_home.xml"
     },
     {
         "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_add.xml.flat",

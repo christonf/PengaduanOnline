@@ -67,6 +67,41 @@ public class AddActivity extends AppCompatActivity {
                             .addOnSuccessListener(new OnSuccessListener<Void>() {
                         @Override
                         public void onSuccess(Void unused) {
+                            NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                            NotificationCompat.Builder builder;
+
+                            Context context = getApplicationContext();
+                            Resources res = context.getResources();
+
+                            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                                String CHANNEL_ID = "christo_chanel";
+
+                                NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "ChristoChannel",
+                                        NotificationManager.IMPORTANCE_HIGH);
+                                channel.setDescription("Christo channel description");
+                                manager.createNotificationChannel(channel);
+
+                                builder = new NotificationCompat.Builder(AddActivity.this, CHANNEL_ID);
+                            }
+                            else {
+                                builder = new NotificationCompat.Builder(context);
+                            }
+
+                            PendingIntent action = PendingIntent.getActivity(context, 0, new Intent(context, AddActivity.class),
+                                    PendingIntent.FLAG_CANCEL_CURRENT);
+
+                            builder.setContentIntent(action)
+                                    .setSmallIcon(R.drawable.ic_notif_new)
+                                    .setTicker("Small text!")
+                                    .setAutoCancel(true)
+                                    .setContentTitle("Berhasil!")
+                                    .setContentText("Berhasil menambah data!");
+
+                            Notification notification = builder.build();
+
+                            int notificationCode = (int) (Math.random() * 1000);
+                            manager.notify(notificationCode, notification);
+
                             Intent msgInt = new Intent(AddActivity.this, HomeActivity.class);
                             msgInt.putExtra("namaUser", output2);
                             msgInt.putExtra("textJudul", getAdJudul);
@@ -83,40 +118,6 @@ public class AddActivity extends AppCompatActivity {
                         }
                     });
                 }
-                NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-                NotificationCompat.Builder builder;
-
-                Context context = getApplicationContext();
-                Resources res = context.getResources();
-
-                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-                    String CHANNEL_ID = "christo_chanel";
-
-                    NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "ChristoChannel",
-                            NotificationManager.IMPORTANCE_HIGH);
-                    channel.setDescription("Christo channel description");
-                    manager.createNotificationChannel(channel);
-
-                    builder = new NotificationCompat.Builder(AddActivity.this, CHANNEL_ID);
-                }
-                else {
-                    builder = new NotificationCompat.Builder(context);
-                }
-
-                PendingIntent action = PendingIntent.getActivity(context, 0, new Intent(context, AddActivity.class),
-                        PendingIntent.FLAG_CANCEL_CURRENT);
-
-                builder.setContentIntent(action)
-                        .setSmallIcon(R.drawable.ic_notif_new)
-                        .setTicker("Small text!")
-                        .setAutoCancel(true)
-                        .setContentTitle("Berhasil!")
-                        .setContentText("Berhasil menambah data!");
-
-                Notification notification = builder.build();
-
-                int notificationCode = (int) (Math.random() * 1000);
-                manager.notify(notificationCode, notification);
             }
         });
     }

@@ -12,6 +12,7 @@ drawable ic_add
 drawable ic_delete
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_logout
 drawable ic_notif_new
 drawable logout
 drawable main_bg

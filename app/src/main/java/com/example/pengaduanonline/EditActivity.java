@@ -58,54 +58,68 @@ public class EditActivity extends AppCompatActivity {
                 String editLokasi = detLokasi.getText().toString();
                 String editIsi = detIsi.getText().toString();
 
-                database.child("Data Pengaduan").child(key).setValue(new DataPengaduan(output1, editJudul, editTanggal, editLokasi, editIsi)).addOnSuccessListener(new OnSuccessListener<Void>() {
-                    @Override
-                    public void onSuccess(Void unused) {
-                        Intent homeIntent = new Intent(EditActivity.this, HomeActivity.class);
-                        homeIntent.putExtra("namaUser", output1);
-                        startActivity(homeIntent);
+                if (editJudul.isEmpty()) {
+                    detJudul.setError("Masukkan judul!");
+                }
+                else if (editTanggal.isEmpty()) {
+                    detTanggal.setError("Masukkan tanggal!");
+                }
+                else if (editLokasi.isEmpty()) {
+                    detLokasi.setError("Masukkan lokasi!");
+                }
+                else if (editIsi.isEmpty()) {
+                    detIsi.setError("Masukkan isi laporan!");
+                }
+                else {
+                    database.child("Data Pengaduan").child(key).setValue(new DataPengaduan(output1, editJudul, editTanggal, editLokasi, editIsi)).addOnSuccessListener(new OnSuccessListener<Void>() {
+                        @Override
+                        public void onSuccess(Void unused) {
+                            Intent homeIntent = new Intent(EditActivity.this, HomeActivity.class);
+                            homeIntent.putExtra("namaUser", output1);
+                            startActivity(homeIntent);
 
-                        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-                        NotificationCompat.Builder builder;
+                            NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                            NotificationCompat.Builder builder;
 
-                        Context context = getApplicationContext();
-                        Resources res = context.getResources();
+                            Context context = getApplicationContext();
+                            Resources res = context.getResources();
 
-                        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-                            String CHANNEL_ID = "christo_chanel";
+                            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                                String CHANNEL_ID = "christo_chanel";
 
-                            NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "ChristoChannel",
-                                    NotificationManager.IMPORTANCE_HIGH);
-                            channel.setDescription("Christo channel description");
-                            manager.createNotificationChannel(channel);
+                                NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "ChristoChannel",
+                                        NotificationManager.IMPORTANCE_HIGH);
+                                channel.setDescription("Christo channel description");
+                                manager.createNotificationChannel(channel);
 
-                            builder = new NotificationCompat.Builder(EditActivity.this, CHANNEL_ID);
+                                builder = new NotificationCompat.Builder(EditActivity.this, CHANNEL_ID);
+                            }
+                            else {
+                                builder = new NotificationCompat.Builder(context);
+                            }
+
+                            PendingIntent action = PendingIntent.getActivity(context, 0, new Intent(context, AddActivity.class),
+                                    PendingIntent.FLAG_CANCEL_CURRENT);
+
+                            builder.setContentIntent(action)
+                                    .setSmallIcon(R.drawable.ic_notif_new)
+                                    .setTicker("Small text!")
+                                    .setAutoCancel(true)
+                                    .setContentTitle("Berhasil!")
+                                    .setContentText("Berhasil mengupdate data!");
+
+                            Notification notification = builder.build();
+
+                            int notificationCode = (int) (Math.random() * 1000);
+                            manager.notify(notificationCode, notification);
                         }
-                        else {
-                            builder = new NotificationCompat.Builder(context);
+                    }).addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            Toast.makeText(EditActivity.this, "Data gagal disimpan!", Toast.LENGTH_SHORT).show();
                         }
-
-                        PendingIntent action = PendingIntent.getActivity(context, 0, new Intent(context, AddActivity.class),
-                                PendingIntent.FLAG_CANCEL_CURRENT);
-
-                        builder.setContentIntent(action)
-                                .setSmallIcon(R.drawable.ic_notif_new)
-                                .setTicker("Small text!")
-                                .setAutoCancel(true)
-                                .setContentTitle("Berhasil!")
-                                .setContentText("Berhasil mengupdate data!");
-
-                        Notification notification = builder.build();
-
-                        int notificationCode = (int) (Math.random() * 1000);
-                        manager.notify(notificationCode, notification);
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(EditActivity.this, "Data gagal disimpan!", Toast.LENGTH_SHORT).show();
-                    }
-                });
+                    });
+                }
             }
         });
     }
