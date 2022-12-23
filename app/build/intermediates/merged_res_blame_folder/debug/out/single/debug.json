@@ -1,0 +1,122 @@
+[
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_green.jpg.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\green.jpg"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "com.example.pengaduanonline.app-merged_res-33:/layout_activity_edit.xml.flat",
+        "source": "com.example.pengaduanonline.app-main-35:/layout/activity_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_main_bg.jpg.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\main_bg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_pengaduan.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\pengaduan.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_ic_notif_new.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\ic_notif_new.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_add.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\layout_activity_edit.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\layout\\activity_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-main-35:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-merged_res-33:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\msi_e\\.gradle\\daemon\\7.3.3\\com.example.pengaduanonline.app-pngs-28:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    }
+]

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/judul_lap"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul_lap"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="24dp"
+        android:text="Tanggal Pengaduan:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tanggal_lap"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="24dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tanggal_lap"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="24dp"
+        android:text="Lokasi Pengaduan:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lokasi_lap"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lokasi_lap"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="24dp"
+        android:text="Isi Pengaduan:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isi_lap"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/isi_lap"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="30dp"
+        android:background="#04DD28"
+        android:text="EDIT"
+        android:textColor="@color/white" />
+</RelativeLayout>
