@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/msi_e/AndroidStudioProjects/PengaduanOnline/app/src/main/res/drawable/ic_logout.xml" value="0.145" />
+        <entry key="..\:/Users/msi_e/AndroidStudioProjects/PengaduanOnline/app/src/main/res/drawable/ic_notif_new.xml" value="0.145" />
         <entry key="..\:/Users/msi_e/AndroidStudioProjects/PengaduanOnline/app/src/main/res/layout/activity_add.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/msi_e/AndroidStudioProjects/PengaduanOnline/app/src/main/res/layout/activity_detail.xml" value="0.25" />
         <entry key="..\:/Users/msi_e/AndroidStudioProjects/PengaduanOnline/app/src/main/res/layout/activity_edit.xml" value="0.25" />
