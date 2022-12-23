@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "540957148944",
+    "project_id": "pengaduan-online-e34ad",
+    "storage_bucket": "pengaduan-online-e34ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540957148944:android:000d6369cc883c92948795",
+        "android_client_info": {
+          "package_name": "com.example.pengaduanonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540957148944-474dr7nucjg8mhvbb71hub1qeicgl062.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFSNpRgv8ivBUtYndK376CCwDD8XEKz6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540957148944-474dr7nucjg8mhvbb71hub1qeicgl062.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
